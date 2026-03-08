@@ -1,0 +1,76 @@
+{
+  "circuit": "c880",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\c880.txt",
+  "original_gate_count": 383,
+  "rare_node_count": 71,
+  "total_cliques": 9,
+  "total_candidates": 9,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 1.60642,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["418", "269", "342"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 2,
+      "clique_size": 3,
+      "clique_nodes": ["419", "270", "344"]
+    },
+    {
+      "id": 2,
+      "file": "candidate_2.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["446", "392"]
+    },
+    {
+      "id": 3,
+      "file": "candidate_3.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["448", "349", "401"]
+    },
+    {
+      "id": 4,
+      "file": "candidate_4.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["449", "350", "402"]
+    },
+    {
+      "id": 5,
+      "file": "candidate_5.bench",
+      "gate_overhead": 4,
+      "clique_size": 5,
+      "clique_nodes": ["284", "348", "400", "424", "451"]
+    },
+    {
+      "id": 6,
+      "file": "candidate_6.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["475", "503"]
+    },
+    {
+      "id": 7,
+      "file": "candidate_7.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["477", "505"]
+    },
+    {
+      "id": 8,
+      "file": "candidate_8.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["481", "509"]
+    }
+  ]
+}

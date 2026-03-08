@@ -1,0 +1,27 @@
+{
+  "circuit": "s344",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\s344.bench",
+  "original_gate_count": 175,
+  "rare_node_count": 12,
+  "total_cliques": 2,
+  "total_candidates": 2,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 0.128007,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 2,
+      "clique_size": 4,
+      "clique_nodes": ["BMVG5VG1VAD1NF", "BMVG4VG1VAD1NF", "BMVG3VG1VAD1NF", "BMVG2VG1VAD1NF"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 2,
+      "clique_size": 4,
+      "clique_nodes": ["ADDVG2VCNVAD4NF", "ADDVG2VCNVAD2NF", "ADDVG3VCNVAD4NF", "ADDVG4VCNVAD4NF"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "circuit": "s838",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\s838.bench",
+  "original_gate_count": 422,
+  "rare_node_count": 278,
+  "total_cliques": 1,
+  "total_candidates": 1,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 0.970249,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 21,
+      "clique_size": 49,
+      "clique_nodes": ["II155", "II156", "II158", "II307", "II308", "II310", "II459", "II460", "II462", "II611", "II612", "II614", "II763", "II764", "II766", "II915", "II916", "II918", "II1067", "II1068", "II1070", "II256", "II199", "II408", "II351", "II560", "II503", "II712", "II655", "II864", "II807", "II1016", "II959", "II1168", "II1111", "II283_2", "II435_2", "II587_2", "II739_2", "II891_2", "II1043_2", "II1195_2", "II287_2", "II439_2", "II591_2", "II743_2", "II895_2", "II1047_2", "II1199_2"]
+    }
+  ]
+}

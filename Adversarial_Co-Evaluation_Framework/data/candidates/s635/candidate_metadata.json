@@ -1,0 +1,20 @@
+{
+  "circuit": "s635",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\s635.bench",
+  "original_gate_count": 318,
+  "rare_node_count": 165,
+  "total_cliques": 1,
+  "total_candidates": 1,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 0.568286,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 10,
+      "clique_size": 30,
+      "clique_nodes": ["I42.2", "I70.2", "I98.2", "I126.2", "I154.2", "I182.2", "I210.2", "I238.2", "I266.2", "I294.2", "I322.2", "I350.2", "I378.2", "I406.2", "I434.2", "I462.2", "I490.2", "I518.2", "I546.2", "I574.2", "I602.2", "I630.2", "I658.2", "I686.2", "I714.2", "I742.2", "I770.2", "I798.2", "I826.2", "I854.2"]
+    }
+  ]
+}

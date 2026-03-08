@@ -1,0 +1,4 @@
+circuit,file,md_distance
+b15_1,candidate_2.bench,63.546403
+b15_1,candidate_1.bench,63.602424
+b15_1,candidate_0.bench,63.606245

@@ -1,0 +1,69 @@
+{
+  "circuit": "s967",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\s967.bench",
+  "original_gate_count": 423,
+  "rare_node_count": 195,
+  "total_cliques": 8,
+  "total_candidates": 8,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 0.72453,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 4,
+      "clique_size": 5,
+      "clique_nodes": ["I9", "I441", "I442", "I813_1", "I544_1"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 10,
+      "clique_size": 13,
+      "clique_nodes": ["I10", "I18", "I31", "I35", "I173", "I205", "I206", "I286", "I285", "I293", "I294", "I578_1", "I547_1"]
+    },
+    {
+      "id": 2,
+      "file": "candidate_2.bench",
+      "gate_overhead": 4,
+      "clique_size": 5,
+      "clique_nodes": ["I14", "I210", "I209", "I152", "I557_1"]
+    },
+    {
+      "id": 3,
+      "file": "candidate_3.bench",
+      "gate_overhead": 4,
+      "clique_size": 5,
+      "clique_nodes": ["I16", "I154", "I564_1", "I258", "I855_2"]
+    },
+    {
+      "id": 4,
+      "file": "candidate_4.bench",
+      "gate_overhead": 4,
+      "clique_size": 4,
+      "clique_nodes": ["I17", "I494", "I155", "I567_1"]
+    },
+    {
+      "id": 5,
+      "file": "candidate_5.bench",
+      "gate_overhead": 4,
+      "clique_size": 5,
+      "clique_nodes": ["I20", "I470", "I469", "I557_2", "I582_1"]
+    },
+    {
+      "id": 6,
+      "file": "candidate_6.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["I21", "I571_1"]
+    },
+    {
+      "id": 7,
+      "file": "candidate_7.bench",
+      "gate_overhead": 18,
+      "clique_size": 22,
+      "clique_nodes": ["I22", "I23", "I25", "I455", "I456", "I225", "I458", "I457", "I207", "I208", "I161", "I516", "I515", "I862_1", "I274", "I561_1", "I585_1", "I401", "I324", "I299", "I282", "I510"]
+    }
+  ]
+}

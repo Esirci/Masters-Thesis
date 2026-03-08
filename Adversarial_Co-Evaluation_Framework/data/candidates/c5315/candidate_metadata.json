@@ -1,0 +1,174 @@
+{
+  "circuit": "c5315",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\c5315.txt",
+  "original_gate_count": 2307,
+  "rare_node_count": 165,
+  "total_cliques": 23,
+  "total_candidates": 23,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 3.13494,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 2,
+      "clique_size": 3,
+      "clique_nodes": ["6641", "6108", "6117"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 2,
+      "clique_size": 3,
+      "clique_nodes": ["6643", "6140", "6149"]
+    },
+    {
+      "id": 2,
+      "file": "candidate_2.bench",
+      "gate_overhead": 2,
+      "clique_size": 3,
+      "clique_nodes": ["6646", "6168", "6175"]
+    },
+    {
+      "id": 3,
+      "file": "candidate_3.bench",
+      "gate_overhead": 2,
+      "clique_size": 3,
+      "clique_nodes": ["6648", "6080", "6091"]
+    },
+    {
+      "id": 4,
+      "file": "candidate_4.bench",
+      "gate_overhead": 2,
+      "clique_size": 5,
+      "clique_nodes": ["7503", "7013", "7016", "7686", "7692"]
+    },
+    {
+      "id": 5,
+      "file": "candidate_5.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["7504", "6155"]
+    },
+    {
+      "id": 6,
+      "file": "candidate_6.bench",
+      "gate_overhead": 2,
+      "clique_size": 3,
+      "clique_nodes": ["7703", "1156", "7631"]
+    },
+    {
+      "id": 7,
+      "file": "candidate_7.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["5066", "5068"]
+    },
+    {
+      "id": 8,
+      "file": "candidate_8.bench",
+      "gate_overhead": 2,
+      "clique_size": 4,
+      "clique_nodes": ["7011", "7012", "7670", "7678"]
+    },
+    {
+      "id": 9,
+      "file": "candidate_9.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["7339", "7341"]
+    },
+    {
+      "id": 10,
+      "file": "candidate_10.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["7349", "7357"]
+    },
+    {
+      "id": 11,
+      "file": "candidate_11.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["7433", "7441"]
+    },
+    {
+      "id": 12,
+      "file": "candidate_12.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["7437", "7445"]
+    },
+    {
+      "id": 13,
+      "file": "candidate_13.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["7439", "7447"]
+    },
+    {
+      "id": 14,
+      "file": "candidate_14.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["7450", "7457"]
+    },
+    {
+      "id": 15,
+      "file": "candidate_15.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["7452", "7459"]
+    },
+    {
+      "id": 16,
+      "file": "candidate_16.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["7454", "7461"]
+    },
+    {
+      "id": 17,
+      "file": "candidate_17.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["7666", "7674"]
+    },
+    {
+      "id": 18,
+      "file": "candidate_18.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["7668", "7676"]
+    },
+    {
+      "id": 19,
+      "file": "candidate_19.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["7672", "7680"]
+    },
+    {
+      "id": 20,
+      "file": "candidate_20.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["7682", "7684"]
+    },
+    {
+      "id": 21,
+      "file": "candidate_21.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["7688", "7694"]
+    },
+    {
+      "id": 22,
+      "file": "candidate_22.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["7690", "7696"]
+    }
+  ]
+}

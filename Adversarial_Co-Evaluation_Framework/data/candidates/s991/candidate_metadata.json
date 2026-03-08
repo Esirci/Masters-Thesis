@@ -1,0 +1,20 @@
+{
+  "circuit": "s991",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\s991.bench",
+  "original_gate_count": 538,
+  "rare_node_count": 37,
+  "total_cliques": 1,
+  "total_candidates": 1,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 0.462706,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 5,
+      "clique_size": 10,
+      "clique_nodes": ["I176_1", "I202_1", "I228_1", "I254_1", "I280_1", "I306_1", "I332_1", "I358_1", "I384_1", "I410_1"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "circuit": "s713",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\s713.bench",
+  "original_gate_count": 412,
+  "rare_node_count": 79,
+  "total_cliques": 1,
+  "total_candidates": 1,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 0.335533,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 4,
+      "clique_size": 8,
+      "clique_nodes": ["G262", "G130", "G131", "II272", "G277", "I265", "G276", "I553"]
+    }
+  ]
+}

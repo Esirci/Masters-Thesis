@@ -1,0 +1,12 @@
+{
+  "circuit": "b22",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\b22.bench",
+  "original_gate_count": 29897,
+  "rare_node_count": 3991,
+  "total_cliques": 0,
+  "total_candidates": 0,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 287.34,
+  "candidates": []
+}

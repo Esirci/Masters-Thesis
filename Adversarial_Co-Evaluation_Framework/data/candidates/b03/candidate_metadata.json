@@ -1,0 +1,20 @@
+{
+  "circuit": "b03",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\b03.bench",
+  "original_gate_count": 152,
+  "rare_node_count": 18,
+  "total_cliques": 1,
+  "total_candidates": 1,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 0.122489,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["U264", "U261"]
+    }
+  ]
+}

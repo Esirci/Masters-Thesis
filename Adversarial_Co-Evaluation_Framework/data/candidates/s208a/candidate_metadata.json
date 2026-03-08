@@ -1,0 +1,55 @@
+{
+  "circuit": "s208a",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\s208a.bench",
+  "original_gate_count": 112,
+  "rare_node_count": 29,
+  "total_cliques": 6,
+  "total_candidates": 6,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 0.1138,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["I283", "P3", "I2911"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["I306", "P6", "I3152"]
+    },
+    {
+      "id": 2,
+      "file": "candidate_2.bench",
+      "gate_overhead": 4,
+      "clique_size": 4,
+      "clique_nodes": ["I307", "P7", "I3151", "I2692"]
+    },
+    {
+      "id": 3,
+      "file": "candidate_3.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["P5", "I3191", "I314"]
+    },
+    {
+      "id": 4,
+      "file": "candidate_4.bench",
+      "gate_overhead": 2,
+      "clique_size": 3,
+      "clique_nodes": ["P8", "I2082", "I2703"]
+    },
+    {
+      "id": 5,
+      "file": "candidate_5.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["I3192", "P4"]
+    }
+  ]
+}

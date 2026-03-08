@@ -1,0 +1,90 @@
+{
+  "circuit": "s641",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\s641.bench",
+  "original_gate_count": 398,
+  "rare_node_count": 60,
+  "total_cliques": 11,
+  "total_candidates": 11,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 0.399919,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 4,
+      "clique_size": 4,
+      "clique_nodes": ["G101BF", "I357", "G294", "G101"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 4,
+      "clique_size": 5,
+      "clique_nodes": ["G97BF", "G341", "I369", "G342", "G97"]
+    },
+    {
+      "id": 2,
+      "file": "candidate_2.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["G99BF", "G99"]
+    },
+    {
+      "id": 3,
+      "file": "candidate_3.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["G95BF", "G95"]
+    },
+    {
+      "id": 4,
+      "file": "candidate_4.bench",
+      "gate_overhead": 4,
+      "clique_size": 8,
+      "clique_nodes": ["G262", "G130", "G131", "II272", "G277", "I265", "G276", "I553"]
+    },
+    {
+      "id": 5,
+      "file": "candidate_5.bench",
+      "gate_overhead": 11,
+      "clique_size": 11,
+      "clique_nodes": ["G122", "I354", "G293", "G146", "I378", "G383", "G384", "II476", "G224", "II208", "I210"]
+    },
+    {
+      "id": 6,
+      "file": "candidate_6.bench",
+      "gate_overhead": 4,
+      "clique_size": 4,
+      "clique_nodes": ["I366", "G198", "I386", "G373"]
+    },
+    {
+      "id": 7,
+      "file": "candidate_7.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["I533", "G265"]
+    },
+    {
+      "id": 8,
+      "file": "candidate_8.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["I512", "G256"]
+    },
+    {
+      "id": 9,
+      "file": "candidate_9.bench",
+      "gate_overhead": 2,
+      "clique_size": 3,
+      "clique_nodes": ["II538", "I537", "G267"]
+    },
+    {
+      "id": 10,
+      "file": "candidate_10.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["I495", "G241"]
+    }
+  ]
+}

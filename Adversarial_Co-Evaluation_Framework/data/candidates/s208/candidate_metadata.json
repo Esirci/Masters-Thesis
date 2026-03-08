@@ -1,0 +1,83 @@
+{
+  "circuit": "s208",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\s208.bench",
+  "original_gate_count": 104,
+  "rare_node_count": 50,
+  "total_cliques": 10,
+  "total_candidates": 10,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 0.113245,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 4,
+      "clique_size": 7,
+      "clique_nodes": ["II155", "II156", "II158", "II256", "II199", "II283_2", "II287_2"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["II157", "II261", "II287_1"]
+    },
+    {
+      "id": 2,
+      "file": "candidate_2.bench",
+      "gate_overhead": 4,
+      "clique_size": 5,
+      "clique_nodes": ["P_3", "II316", "II487", "II488", "II504_1"]
+    },
+    {
+      "id": 3,
+      "file": "candidate_3.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["P_4", "II317", "II504_2"]
+    },
+    {
+      "id": 4,
+      "file": "candidate_4.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["P_6", "II374", "II512_1"]
+    },
+    {
+      "id": 5,
+      "file": "candidate_5.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["II109", "II135_1"]
+    },
+    {
+      "id": 6,
+      "file": "candidate_6.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["II131_2", "II135_2"]
+    },
+    {
+      "id": 7,
+      "file": "candidate_7.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["II497_1", "P_8"]
+    },
+    {
+      "id": 8,
+      "file": "candidate_8.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["II500_1", "P_5", "II484"]
+    },
+    {
+      "id": 9,
+      "file": "candidate_9.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["II512_2", "P_7"]
+    }
+  ]
+}

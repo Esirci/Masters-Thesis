@@ -1,0 +1,132 @@
+{
+  "circuit": "s420a",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\s420a.bench",
+  "original_gate_count": 234,
+  "rare_node_count": 97,
+  "total_cliques": 17,
+  "total_candidates": 17,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 0.292371,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["I547", "P.3", "I555.1"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["I570", "P.6", "I579.2"]
+    },
+    {
+      "id": 2,
+      "file": "candidate_2.bench",
+      "gate_overhead": 4,
+      "clique_size": 4,
+      "clique_nodes": ["I571", "P.7", "I579.1", "I533.2"]
+    },
+    {
+      "id": 3,
+      "file": "candidate_3.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["I594", "P.10", "I603.2"]
+    },
+    {
+      "id": 4,
+      "file": "candidate_4.bench",
+      "gate_overhead": 4,
+      "clique_size": 4,
+      "clique_nodes": ["I595", "P.11", "I603.1", "I533.3"]
+    },
+    {
+      "id": 5,
+      "file": "candidate_5.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["I618", "P.14", "I627.2"]
+    },
+    {
+      "id": 6,
+      "file": "candidate_6.bench",
+      "gate_overhead": 4,
+      "clique_size": 4,
+      "clique_nodes": ["I619", "P.15", "I627.1", "I533.4"]
+    },
+    {
+      "id": 7,
+      "file": "candidate_7.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["I73.3", "I186.4"]
+    },
+    {
+      "id": 8,
+      "file": "candidate_8.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["I171.3", "I284.4"]
+    },
+    {
+      "id": 9,
+      "file": "candidate_9.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["I269.3", "I378.4"]
+    },
+    {
+      "id": 10,
+      "file": "candidate_10.bench",
+      "gate_overhead": 4,
+      "clique_size": 4,
+      "clique_nodes": ["I408.3", "P.13", "I631.1", "I626"]
+    },
+    {
+      "id": 11,
+      "file": "candidate_11.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["P.5", "I583.1", "I578"]
+    },
+    {
+      "id": 12,
+      "file": "candidate_12.bench",
+      "gate_overhead": 2,
+      "clique_size": 3,
+      "clique_nodes": ["P.8", "I406.2", "I607.2"]
+    },
+    {
+      "id": 13,
+      "file": "candidate_13.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["P.9", "I607.1", "I602"]
+    },
+    {
+      "id": 14,
+      "file": "candidate_14.bench",
+      "gate_overhead": 2,
+      "clique_size": 3,
+      "clique_nodes": ["P.12", "I406.3", "I631.2"]
+    },
+    {
+      "id": 15,
+      "file": "candidate_15.bench",
+      "gate_overhead": 2,
+      "clique_size": 3,
+      "clique_nodes": ["P.16", "I406.4", "I534.5"]
+    },
+    {
+      "id": 16,
+      "file": "candidate_16.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["I583.2", "P.4"]
+    }
+  ]
+}

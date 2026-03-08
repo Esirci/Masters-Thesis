@@ -1,0 +1,48 @@
+{
+  "circuit": "s386a",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\s386a.bench",
+  "original_gate_count": 165,
+  "rare_node_count": 58,
+  "total_cliques": 5,
+  "total_candidates": 5,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 0.29617,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 4,
+      "clique_size": 4,
+      "clique_nodes": ["v13_D_12", "I198", "Lv13_D_12", "I64"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["v13_D_10", "I204", "Lv13_D_10"]
+    },
+    {
+      "id": 2,
+      "file": "candidate_2.bench",
+      "gate_overhead": 4,
+      "clique_size": 5,
+      "clique_nodes": ["v13_D_9", "I207", "Lv13_D_9", "I76", "I158"]
+    },
+    {
+      "id": 3,
+      "file": "candidate_3.bench",
+      "gate_overhead": 10,
+      "clique_size": 16,
+      "clique_nodes": ["v13_D_8", "v13_D_7", "v13_D_5", "v13_D_4", "v13_D_0", "I213", "Lv13_D_7", "I222", "Lv13_D_4", "I234", "Lv13_D_0", "I73", "I57", "I47", "I148", "I186"]
+    },
+    {
+      "id": 4,
+      "file": "candidate_4.bench",
+      "gate_overhead": 4,
+      "clique_size": 7,
+      "clique_nodes": ["v13_D_6", "v13_D_1", "I216", "Lv13_D_6", "I231", "Lv13_D_1", "I195"]
+    }
+  ]
+}

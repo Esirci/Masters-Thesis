@@ -1,0 +1,27 @@
+{
+  "circuit": "s3330",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\s3330.bench",
+  "original_gate_count": 1921,
+  "rare_node_count": 204,
+  "total_cliques": 2,
+  "total_candidates": 2,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 3.14651,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 2,
+      "clique_size": 3,
+      "clique_nodes": ["I530", "I531", "I532"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 11,
+      "clique_size": 17,
+      "clique_nodes": ["I650", "I651", "I768", "I40dff", "I660.214", "I40dff.189", "I926", "I926.145", "I660", "I778", "I535.177", "I535", "I619", "I611", "I756", "I602", "I601"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "circuit": "c6288",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\c6288.txt",
+  "original_gate_count": 2416,
+  "rare_node_count": 188,
+  "total_cliques": 1,
+  "total_candidates": 1,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 2.59724,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["1578", "1821"]
+    }
+  ]
+}

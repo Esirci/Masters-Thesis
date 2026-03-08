@@ -1,0 +1,6 @@
+Detector,Subset,N_samples,Acc,TPR(Recall),TNR,F1
+Retrained RL,Clean,28,0.9286,0.0,0.9286,0.0
+Retrained RL,Trojan (Random),18,0.3889,0.3889,0.0,0.56
+Retrained RL,Trojan (Graph-Only),18,0.6111,0.6111,0.0,0.7586
+Retrained RL,Trojan (MFP FEHT),18,0.2778,0.2778,0.0,0.4348
+Retrained RL,Trojan (Loss-Guided),19,0.2105,0.2105,0.0,0.3478

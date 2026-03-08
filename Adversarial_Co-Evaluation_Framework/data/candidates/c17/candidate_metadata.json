@@ -1,0 +1,12 @@
+{
+  "circuit": "c17",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\c17.txt",
+  "original_gate_count": 6,
+  "rare_node_count": 0,
+  "total_cliques": 0,
+  "total_candidates": 0,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 0.006839,
+  "candidates": []
+}

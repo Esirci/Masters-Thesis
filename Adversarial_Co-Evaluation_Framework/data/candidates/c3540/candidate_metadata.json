@@ -1,0 +1,27 @@
+{
+  "circuit": "c3540",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\c3540.txt",
+  "original_gate_count": 1669,
+  "rare_node_count": 451,
+  "total_cliques": 2,
+  "total_candidates": 2,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 3.50086,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["1713", "1505"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["5192", "5166"]
+    }
+  ]
+}

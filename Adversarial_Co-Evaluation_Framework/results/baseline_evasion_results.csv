@@ -1,0 +1,16 @@
+Detector,Subset,N_samples,Acc,TPR(Recall),TNR,F1
+DNN,Clean,28,0.8571,0.0,0.8571,0.0
+DNN,Trojan (Random),18,0.8333,0.8333,0.0,0.9091
+DNN,Trojan (Graph-Only),18,1.0,1.0,0.0,1.0
+DNN,Trojan (MFP FEHT),18,0.7778,0.7778,0.0,0.875
+DNN,Trojan (Loss-Guided),19,0.7895,0.7895,0.0,0.8824
+Random Forest,Clean,28,0.9643,0.0,0.9643,0.0
+Random Forest,Trojan (Random),18,0.9444,0.9444,0.0,0.9714
+Random Forest,Trojan (Graph-Only),18,0.9444,0.9444,0.0,0.9714
+Random Forest,Trojan (MFP FEHT),18,0.8889,0.8889,0.0,0.9412
+Random Forest,Trojan (Loss-Guided),19,0.8421,0.8421,0.0,0.9143
+Decision Tree,Clean,28,0.9286,0.0,0.9286,0.0
+Decision Tree,Trojan (Random),18,1.0,1.0,0.0,1.0
+Decision Tree,Trojan (Graph-Only),18,1.0,1.0,0.0,1.0
+Decision Tree,Trojan (MFP FEHT),18,1.0,1.0,0.0,1.0
+Decision Tree,Trojan (Loss-Guided),19,1.0,1.0,0.0,1.0

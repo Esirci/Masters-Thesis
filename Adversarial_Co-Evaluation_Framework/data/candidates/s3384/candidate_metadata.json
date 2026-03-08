@@ -1,0 +1,41 @@
+{
+  "circuit": "s3384",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\s3384.bench",
+  "original_gate_count": 1868,
+  "rare_node_count": 109,
+  "total_cliques": 4,
+  "total_candidates": 4,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 1.96155,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 2,
+      "clique_size": 6,
+      "clique_nodes": ["I945", "I947", "I943", "I923", "I921", "I919"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 9,
+      "clique_size": 9,
+      "clique_nodes": ["zI703_198", "I703", "zI691_196", "I691", "zI679_194", "I679", "zI706_199", "zI694_197", "zI682_195"]
+    },
+    {
+      "id": 2,
+      "file": "candidate_2.bench",
+      "gate_overhead": 9,
+      "clique_size": 12,
+      "clique_nodes": ["zI817_250", "I817", "zI816_248", "I816", "zI815_246", "I815", "I705", "I693", "I681", "zI708_251", "zI696_249", "zI684_247"]
+    },
+    {
+      "id": 3,
+      "file": "candidate_3.bench",
+      "gate_overhead": 8,
+      "clique_size": 23,
+      "clique_nodes": ["I650", "I795", "I843", "I877", "I905", "I931", "I955", "I967", "I975", "I983", "I991", "I999", "I1007", "I1015", "I1023", "I1031", "I1039", "I1047", "I1055", "I1063", "I1071", "I1079", "I1087"]
+    }
+  ]
+}

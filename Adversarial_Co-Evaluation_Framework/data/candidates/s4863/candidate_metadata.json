@@ -1,0 +1,20 @@
+{
+  "circuit": "s4863",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\s4863.bench",
+  "original_gate_count": 2446,
+  "rare_node_count": 148,
+  "total_cliques": 1,
+  "total_candidates": 1,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 3.62031,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 13,
+      "clique_size": 44,
+      "clique_nodes": ["I991", "I993", "I996", "I989", "I995", "I994", "I990", "I992", "I1041", "I1021", "I1043", "I1028", "I1026", "I1027", "I1023", "I1024", "I1039", "I1040", "I1073", "I1065", "I1081", "I1057", "I1053", "I1061", "I1069", "I1077", "I1074", "I1075", "I1076", "I1067", "I1068", "I1084", "I1083", "I1059", "I1060", "I1054", "I1055", "I1064", "I1062", "I1063", "I1070", "I1071", "I1079", "I1078"]
+    }
+  ]
+}

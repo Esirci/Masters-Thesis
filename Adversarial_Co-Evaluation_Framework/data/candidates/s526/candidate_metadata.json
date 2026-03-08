@@ -1,0 +1,27 @@
+{
+  "circuit": "s526",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\s526.bench",
+  "original_gate_count": 214,
+  "rare_node_count": 30,
+  "total_cliques": 2,
+  "total_candidates": 2,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 0.220274,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 2,
+      "clique_size": 3,
+      "clique_nodes": ["G67", "G74", "G133"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 2,
+      "clique_size": 3,
+      "clique_nodes": ["G66", "G73", "G132"]
+    }
+  ]
+}

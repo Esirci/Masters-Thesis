@@ -1,0 +1,76 @@
+{
+  "circuit": "s953",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\s953.bench",
+  "original_gate_count": 424,
+  "rare_node_count": 268,
+  "total_cliques": 9,
+  "total_candidates": 9,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 0.75224,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 9,
+      "clique_size": 9,
+      "clique_nodes": ["I3", "I8", "I16", "I323", "I322", "I1176_1", "I655", "I659", "I721"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 4,
+      "clique_size": 4,
+      "clique_nodes": ["I4", "I380", "I381", "I725"]
+    },
+    {
+      "id": 2,
+      "file": "candidate_2.bench",
+      "gate_overhead": 12,
+      "clique_size": 13,
+      "clique_nodes": ["I10", "I17", "I435", "I294", "I287", "I1140_1", "I573", "I861_1", "I731", "I750", "I665", "I540", "I408"]
+    },
+    {
+      "id": 3,
+      "file": "candidate_3.bench",
+      "gate_overhead": 4,
+      "clique_size": 5,
+      "clique_nodes": ["I11", "I475", "I474", "I861_2", "I697"]
+    },
+    {
+      "id": 4,
+      "file": "candidate_4.bench",
+      "gate_overhead": 4,
+      "clique_size": 5,
+      "clique_nodes": ["I12", "I377", "I376", "I1132_2", "I693"]
+    },
+    {
+      "id": 5,
+      "file": "candidate_5.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["I13", "I415", "I414"]
+    },
+    {
+      "id": 6,
+      "file": "candidate_6.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["I14", "I491"]
+    },
+    {
+      "id": 7,
+      "file": "candidate_7.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["I15", "I796_1"]
+    },
+    {
+      "id": 8,
+      "file": "candidate_8.bench",
+      "gate_overhead": 18,
+      "clique_size": 21,
+      "clique_nodes": ["I19", "I441", "I440", "I469", "I468", "I398", "I399", "I370", "I661", "I660", "I1107_1", "I1031_1", "I1173_1", "I1188_2", "I1118_1", "I1087_1", "I526", "I682", "I678", "I689", "I667"]
+    }
+  ]
+}

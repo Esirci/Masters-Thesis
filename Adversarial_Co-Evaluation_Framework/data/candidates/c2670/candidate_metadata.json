@@ -1,0 +1,90 @@
+{
+  "circuit": "c2670",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\c2670.txt",
+  "original_gate_count": 1193,
+  "rare_node_count": 180,
+  "total_cliques": 11,
+  "total_candidates": 11,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 1.78202,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["792", "485"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 4,
+      "clique_size": 5,
+      "clique_nodes": ["1277", "1448", "544", "547", "1034"]
+    },
+    {
+      "id": 2,
+      "file": "candidate_2.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["1970", "1822"]
+    },
+    {
+      "id": 3,
+      "file": "candidate_3.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["1971", "1823"]
+    },
+    {
+      "id": 4,
+      "file": "candidate_4.bench",
+      "gate_overhead": 4,
+      "clique_size": 8,
+      "clique_nodes": ["3038", "3079", "2748", "2749", "2751", "2829", "2830", "2931"]
+    },
+    {
+      "id": 5,
+      "file": "candidate_5.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["3881", "3882", "3877"]
+    },
+    {
+      "id": 6,
+      "file": "candidate_6.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["3197", "3208"]
+    },
+    {
+      "id": 7,
+      "file": "candidate_7.bench",
+      "gate_overhead": 2,
+      "clique_size": 4,
+      "clique_nodes": ["3301", "3314", "3735", "3748"]
+    },
+    {
+      "id": 8,
+      "file": "candidate_8.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["3736", "3749"]
+    },
+    {
+      "id": 9,
+      "file": "candidate_9.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["3779", "3794"]
+    },
+    {
+      "id": 10,
+      "file": "candidate_10.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["3807", "3814"]
+    }
+  ]
+}

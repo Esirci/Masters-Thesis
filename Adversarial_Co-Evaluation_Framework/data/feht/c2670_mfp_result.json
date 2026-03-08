@@ -1,0 +1,17 @@
+{
+  "circuit": "c2670",
+  "total_candidates": 11,
+  "successful": 11,
+  "failed": 0,
+  "feht_mfp": {
+    "file": "candidate_10.bench",
+    "distance": 9.40855794921049,
+    "output": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\Adversarial_Co-Evaluation_Framework\\data\\feht\\c2670_feht_mfp.bench"
+  },
+  "worst_candidate": {
+    "file": "candidate_4.bench",
+    "distance": 14.666998797151244
+  },
+  "distance_spread": 5.258440847940754,
+  "errors": []
+}

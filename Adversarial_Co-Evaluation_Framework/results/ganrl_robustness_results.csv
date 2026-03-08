@@ -1,0 +1,6 @@
+Detector,Subset,N_samples,Acc,TPR(Recall),TNR,F1
+GAN-RL DQN,Clean,28,0.7857,0.0,0.7857,0.0
+GAN-RL DQN,Trojan (Random),18,0.1111,0.1111,0.0,0.2
+GAN-RL DQN,Trojan (Graph-Only),18,0.1111,0.1111,0.0,0.2
+GAN-RL DQN,Trojan (MFP FEHT),18,0.1111,0.1111,0.0,0.2
+GAN-RL DQN,Trojan (Loss-Guided),19,0.1053,0.1053,0.0,0.1905

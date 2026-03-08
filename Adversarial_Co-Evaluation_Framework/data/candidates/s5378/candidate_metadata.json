@@ -1,0 +1,41 @@
+{
+  "circuit": "s5378",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\s5378.bench",
+  "original_gate_count": 2958,
+  "rare_node_count": 739,
+  "total_cliques": 4,
+  "total_candidates": 4,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 7.47914,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 4,
+      "clique_size": 5,
+      "clique_nodes": ["n3112gat", "I4587", "n2701gat", "n2697gat", "I4678"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 4,
+      "clique_size": 5,
+      "clique_nodes": ["n3115gat", "I4566", "n2694gat", "n2690gat", "I4687"]
+    },
+    {
+      "id": 2,
+      "file": "candidate_2.bench",
+      "gate_overhead": 11,
+      "clique_size": 12,
+      "clique_nodes": ["n3129gat", "n670gat", "n636gat", "I4475", "n2951gat", "n2807gat", "I4478", "n2803gat", "I4729", "n977gat", "n1004gat", "n801gat"]
+    },
+    {
+      "id": 3,
+      "file": "candidate_3.bench",
+      "gate_overhead": 11,
+      "clique_size": 18,
+      "clique_nodes": ["n3130gat", "I4449", "n2955gat", "n2828gat", "I4452", "n2825gat", "I4732", "n989gat", "n998gat", "n890gat", "n997gat", "n988gat", "n987gat", "n1098gat", "n893gat", "n1097gat", "n1177gat", "n990gat"]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "circuit": "s38584",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\s38584.bench",
+  "original_gate_count": 20679,
+  "rare_node_count": 3847,
+  "total_cliques": 2,
+  "total_candidates": 2,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 219.312,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 4,
+      "clique_size": 7,
+      "clique_nodes": ["g33659", "I31491", "g34276", "g34058", "g33660", "I31494", "g33283"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 34,
+      "clique_size": 45,
+      "clique_nodes": ["g34221", "g34425", "g30984", "g31794", "I29368", "g29755", "I28002", "g33451", "g32132", "g34471", "g34423", "I32446", "I26799", "g27660", "I32192", "g33628", "g28274", "g32430", "I28572", "g31479", "I29139", "I32449", "g34127", "I27713", "g28224", "g34473", "g34426", "g32433", "I29961", "I30980", "I32195", "g30321", "g30318", "g33944", "I31829", "g34660", "I30983", "g28153", "g34222", "g29353", "g33455", "g29382", "g33454", "g26148", "g27395"]
+    }
+  ]
+}

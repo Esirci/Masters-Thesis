@@ -1,0 +1,41 @@
+{
+  "circuit": "b07",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\b07.bench",
+  "original_gate_count": 432,
+  "rare_node_count": 61,
+  "total_cliques": 4,
+  "total_candidates": 4,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 0.441936,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 7,
+      "clique_size": 12,
+      "clique_nodes": ["U301", "U375", "U303", "U474", "U472", "U470", "U468", "U466", "U464", "U462", "U460", "U458"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 2,
+      "clique_size": 8,
+      "clique_nodes": ["U414", "U507", "U502", "U496", "U413", "U568", "U584", "U586"]
+    },
+    {
+      "id": 2,
+      "file": "candidate_2.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["U494", "U500"]
+    },
+    {
+      "id": 3,
+      "file": "candidate_3.bench",
+      "gate_overhead": 2,
+      "clique_size": 3,
+      "clique_nodes": ["U555", "U557", "U577"]
+    }
+  ]
+}

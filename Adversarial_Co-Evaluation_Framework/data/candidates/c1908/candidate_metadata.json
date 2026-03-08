@@ -1,0 +1,174 @@
+{
+  "circuit": "c1908",
+  "input_bench": "C:\\Users\\haven\\Desktop\\New_Thesis_Direction\\HTPred-master\\Non Trojan Files\\c1908.txt",
+  "original_gate_count": 880,
+  "rare_node_count": 111,
+  "total_cliques": 23,
+  "total_candidates": 23,
+  "clique_size": 2,
+  "payload": "XOR",
+  "elapsed_seconds": 1.17005,
+  "candidates": [
+    {
+      "id": 0,
+      "file": "candidate_0.bench",
+      "gate_overhead": 4,
+      "clique_size": 8,
+      "clique_nodes": ["2537", "2558", "2670", "2745", "2747", "2773", "2788", "2808"]
+    },
+    {
+      "id": 1,
+      "file": "candidate_1.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["2540", "2561", "2672"]
+    },
+    {
+      "id": 2,
+      "file": "candidate_2.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["2543", "2564", "2673"]
+    },
+    {
+      "id": 3,
+      "file": "candidate_3.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["2552", "2573", "2689"]
+    },
+    {
+      "id": 4,
+      "file": "candidate_4.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["2567", "2676"]
+    },
+    {
+      "id": 5,
+      "file": "candidate_5.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["2570", "2683"]
+    },
+    {
+      "id": 6,
+      "file": "candidate_6.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["2576", "2691"]
+    },
+    {
+      "id": 7,
+      "file": "candidate_7.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["2594", "2639", "2725"]
+    },
+    {
+      "id": 8,
+      "file": "candidate_8.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["2597", "2642", "2727"]
+    },
+    {
+      "id": 9,
+      "file": "candidate_9.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["2600", "2645", "2729"]
+    },
+    {
+      "id": 10,
+      "file": "candidate_10.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["2603", "2648", "2730"]
+    },
+    {
+      "id": 11,
+      "file": "candidate_11.bench",
+      "gate_overhead": 4,
+      "clique_size": 7,
+      "clique_nodes": ["2606", "2651", "2733", "2746", "2750", "2776", "2809"]
+    },
+    {
+      "id": 12,
+      "file": "candidate_12.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["2611", "2655", "2736"]
+    },
+    {
+      "id": 13,
+      "file": "candidate_13.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["2614", "2658", "2738"]
+    },
+    {
+      "id": 14,
+      "file": "candidate_14.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["2617", "2661", "2739"]
+    },
+    {
+      "id": 15,
+      "file": "candidate_15.bench",
+      "gate_overhead": 4,
+      "clique_size": 3,
+      "clique_nodes": ["2620", "2664", "2742"]
+    },
+    {
+      "id": 16,
+      "file": "candidate_16.bench",
+      "gate_overhead": 2,
+      "clique_size": 2,
+      "clique_nodes": ["2627", "2710"]
+    },
+    {
+      "id": 17,
+      "file": "candidate_17.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["2812", "2850"]
+    },
+    {
+      "id": 18,
+      "file": "candidate_18.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["2815", "2851"]
+    },
+    {
+      "id": 19,
+      "file": "candidate_19.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["2818", "2852"]
+    },
+    {
+      "id": 20,
+      "file": "candidate_20.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["2821", "2853"]
+    },
+    {
+      "id": 21,
+      "file": "candidate_21.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["2824", "2854"]
+    },
+    {
+      "id": 22,
+      "file": "candidate_22.bench",
+      "gate_overhead": 4,
+      "clique_size": 2,
+      "clique_nodes": ["2829", "2863"]
+    }
+  ]
+}
