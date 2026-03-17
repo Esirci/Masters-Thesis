@@ -172,6 +172,15 @@ The graph/circuit structures of c3540 and c6288 are similar, since one is a mult
 *   **Algorithm 2's Role**: The compatibility graph ensures selected trigger nodes have **non-conflicting** test vectors, meaning if node A requires input pattern `10XX` and node B requires `1X0X`, they are compatible (can both be satisfied by `100X`). This reduces the joint activation probability from the product of individual probabilities.
 *   **Your Observation is Correct**: With such a permissive threshold, Algorithm 1 doesn't provide true rarity. The entire stealth burden falls on Algorithm 2's joint probability reduction.
 
+**⚠️The paper does not explain this clearly, but this seems the most reasonable interpretation.**
+
+**⚠️Table IV most likely shows all compatible complete subgraphs, from larger sizes to smaller sizes. The function may first look for large cliques. Then it may continue with smaller ones. It may stop when it finds enough subgraphs for N Trojan instances. For example, for c6288, the paper reports 1000 complete subgraphs. This means the framework may have 1000 possible Trojan candidates for this circuit.**
+
+**⚠️In Table III, the paper uses only 100 Trojan instances for each benchmark. This may explain why the trigger size is given as a range. The algorithm may start from the largest clique size and then go down to smaller sizes until it gets 100 results. For example, for c2670, it may start from 28, then continue with 27, 26, 25, and stop when it reaches 100 Trojan instances.**
+
+
+
+
 **Evidence from Our Validation Data** (`validation_tables.csv`):
 
 | Circuit | Trigger Size | Individual Node Activity (θ=0.2) | Detection Probability | Stealth Achieved? |
@@ -197,7 +206,7 @@ Even with Algorithm 2's joint probability reduction, **5 out of 7 circuits faile
 **The Paper's Trade-off:**
 *   **θ=0.2 Choice**: I guess it was deliberately permissive to generate dense compatibility graphs with many cliques, showcasing Algorithm 2's efficiency
 *   **Consequence**: Sacrifices guaranteed stealth (as our combinational results demonstrate)
-*   **Practical Implication**: For real-world stealth, **θ ≤ 0.5** would be required I think. Our earlier analysis (line 58) confirmed this: "For practical, meaningful stealth, a strictly lower threshold (θ ≤ 0.1) is indeed required."
+*   **Practical Implication**: For real-world stealth, **θ ≤ 0.5** would be required I think. Our earlier analysis (line 58) confirmed this: "For practical, meaningful stealth, a strictly lower threshold (θ ≤ 0.1) is indeed required." ⚠️According to the literature, θ = 0.1 is a sufficient choice. We can explain why this value was selected and support it with several references.
 
 **Conclusion**: You are not missing anything. The paper's stealth relies almost entirely on Algorithm 2, but our validation proves this is insufficient without stricter Algorithm 1 thresholds. The 6-12% detection rates in combinational circuits confirm that θ=0.2 compromises stealth for the sake of demonstrating the graph-based approach.
 
@@ -206,6 +215,9 @@ Our clique counts are significantly lower than the paper's reported subgraph cou
 1. **Stricter ATPG**: Our custom 5-valued PODEM generates more constrained test vectors with fewer "Don't Care" values, resulting in sparser compatibility graphs.
 2. **Graph Density Impact**: Lower density directly reduces the number of valid cliques (e.g., `c6288` with 0.0003 density yielded only 1 clique vs. paper's 1,000).
 3. **Pruning Strategy**: For large circuits (`s13207`, `s15850`), we intentionally limited clique enumeration to prevent exponential runtime, finding sufficient cliques for insertion rather than exhaustive enumeration.
+
+
+⚠️Based on the workflow I summarized above, (where find_cliques() starts from the largest clique size and then goes down until it gets N results), your runtime looks extremely fast when PODEM time is excluded. For example, for c2670, the runtime for q = 2 to 10 is around 1 second, which is very fast. This makes me wonder about one point. In our experiments, no clique was found for q larger than 10 in any circuit. So I am not sure whether larger cliques simply do not exist under the threshold value 0.2. This is confusing, because in the paper the minimum reported trigger size is much larger, around q = 39 for some circuits, and even around q = 100 for some sequential circuits.
 
 **Is this better?** While we found fewer total cliques, this is actually **superior** for practical Trojan insertion:
 - **Faster execution**: Our sparse graphs enable near-instantaneous clique finding (<1s for most circuits vs. paper's 140s+ for `c3540`).
@@ -344,6 +356,10 @@ The layout shows the area usage of each circuit block, and the percentages are v
 *   Paper's higher overhead (1.26-5.4%) vs ours (0.04-1.33%) likely reflects:
     1.  Different trigger sizes used (we used `q=2-5`, unclear what paper used)
     2.  Different area measurement methodology (transistor count vs gate count)
+ 
+**⚠️The paper goal is to generate many Trojan benchmarks that are more stealthy (by using rare nodes), have larger triggers (through compatibility-graph based trigger selection), and can be produced quickly (through Algorithm 2 and Algorithm 3) for testing detection methods.**
+
+**⚠️A 2-input XOR trigger is easier to detect with test vectors because it has a much higher activation probability. Since it depends on only two inputs, random or generated test patterns can activate it much more easily than a large trigger built from many rare nodes. However, this does not mean that choosing the maximum clique size is always the best objective. For us, the main focus is Trojan detection with learning methods, not test vector generation (functional analyssi). The trigger size should be selected based on the earlier analysis and the Trojan types in our dataset. For this reason, we need analysis data about how many Trojans were inserted, what types they are, and for what purpose they were added, so that we can clearly explain why we chose a specific q value.**
 
 **Corrected Conclusion**: The overhead difference primarily depends on **trigger input size `q`**, not payload complexity. Without knowing the paper's `q` values, we cannot definitively compare. 
 
@@ -398,6 +414,8 @@ We simulated 100,000 random vectors to see if the Trojan triggers accidentally (
 *   If independent: P(A=1 AND B=1) ≤ 0.04 (4%)
 *   Actual: 6.2% suggests A and B are **positively correlated** (not independent)
 *   This confirms your earlier observation: θ=0.2 is too permissive for guaranteed stealth
+*   ⚠️Trigger sizes like 2 or 4 are very small. So I think it makes more sense to compare our results with the TC values in Table II. For example, for c3540, the paper says there are 100 Trojan circuits in the random HT set, and TC = 9, so 9 of them were detected by random test vectors. In the Trust-HUB set, TC = 27. But they do not explain if this is from one run or from something like an average over multiple runs (probabily, 10times run & select min TC num).
+
 
 | Circuit | Trigger Size | Random Vectors | Detection Coverage (Random) |
 |:---:|:---:|:---:|:---:|
