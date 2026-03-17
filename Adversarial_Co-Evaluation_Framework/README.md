@@ -15,7 +15,9 @@ The core question it answers:
 
 ### Core Novelty Statement
 Following rigorous literature review and empirical validation, our explicit novelty claim is:
-**To the best of our knowledge, prior work has not combined compatibility-graph-constrained candidate enumeration with explicit minimum-perturbation optimization in a fixed spatial feature manifold (HT-Pred) to synthesize feature-evasive gate-level hardware Trojans.**
+**To the best of our knowledge, prior work (⚠️please cite which ones) has not combined compatibility-graph-constrained candidate enumeration with explicit minimum-perturbation optimization in a fixed spatial feature manifold (HT-Pred) to synthesize feature-evasive gate-level hardware Trojans.**
+
+**⚠️ question: feature-evasive gate-level hardware Trojans ?= A hardware Trojan inserted at gate level, designed to look normal in the feature space used by the detector.**
 
 ---
 
@@ -56,6 +58,8 @@ To definitively prove our attack's success, we evaluate identically-constrained 
 ---
 
 ## 4. Resolving Critical Discrepancies (Data Leakage)
+⚠️I guess unroll here means something like scan-chain based. If the sequential circuit is analyzed in a scan-chain style, then all stages should follow the same rule. The clean circuits should also be processed in the same way (you`re right, you can remove the FFs in the clean benchmarks as well).⚠️
+
 During pipeline construction, we discovered and neutralized a severe **Data Leakage** vulnerability. 
 * **The Problem:** Sub-graph isomorphism processing inside our C++ generator unrolls sequential circuits, converting Flip-Flops (`DFF`) into Inputs/Outputs. This caused Trojan `DFF` counts to drop precipitously compared to Clean circuits. Early ML detectors used this "missing DFF" signature as an artificial cheat code to intuitively flag Trojans, bypassing the actual stealthy geometry.
 * **The Fix:** We wrote `extract_unrolled_clean.py` to aggressively unroll the Clean benchmark circuits before extracting their baseline features. This neutralized the data leakage, formally aligning the Attacker and Defender manifolds so the ML classifiers could not "cheat."
@@ -100,3 +104,8 @@ By neutralizing the data leakage and strictly evaluating over un-memorized Circu
 * **Reinforcement Learning Collapse:** Our natively-retrained, False-Positive penalized DQN agent completely collapsed. It achieved a 61.11% TPR on standard unoptimized graph insertions, but was mathematically blinded by our novel attacker, dropping to a catastrophic **21.05% TPR (Loss-Guided) and 27.78% TPR (MFP)**.
 
 **Conclusion:** The pipeline is a complete scientific success. We have explicitly proven that graph-constrained heuristic feature minimization is a deadly, measurable threat that successfully evades even state-of-the-art robust detectors.
+
+**⚠️ Please say clearly which papers you mean by state of the art. List those papers one by one. Also say what you used from each paper.
+Did you apply their method?
+Did you compare with a result from one of their tables?
+Did you reproduce part of their work?**
